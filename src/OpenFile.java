@@ -13,7 +13,7 @@ public class OpenFile {
     }
 
     public static BufferedReader openFile() throws IOException{
-        File quotesFile = new File("C:\\Users\\homba\\Documents\\Rainmeter\\Skins\\MyQuotes\\quotes.txt");
+        File quotesFile = new File("C:\\Users\\homba\\Documents\\QuotesProject\\quotes.txt");
 
         if (quotesFile == null){
             throw new FileNotFoundException("Cannot find quotes file");
