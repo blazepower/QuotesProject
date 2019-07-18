@@ -1,3 +1,4 @@
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -98,8 +99,9 @@ public class SortQuotes {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Quote> quotes;
+        BufferedReader reader = OpenFile.openFile();
         ArrayList<Quote> sorted;
-        quotes = ImportQuotes.fillList();
+        quotes = ImportQuotes.fillList(reader);
 
         sorted = charSort(quotes, 1);
         //quotes = charSort(quotes, 0);

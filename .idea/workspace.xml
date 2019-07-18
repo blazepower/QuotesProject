@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642c950d-ea59-4947-acda-5bd61175459e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="642c950d-ea59-4947-acda-5bd61175459e" name="Default Changelist" comment="Add quotes file">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImportQuotesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImportQuotesTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OpenFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuoteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuotesProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuotesProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuotesProject/ImportQuotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuotesProject/ImportQuotes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuotesProject/OpenFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuotesProject/OpenFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuotesProject/Quote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuotesProject/Quote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuotesProject/SortQuotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuotesProject/SortQuotes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/quotes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImportQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportQuotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpenFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpenFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortQuotes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OpenFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quotes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="79" lean-forward="true" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+            <state relative-caret-position="72">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -52,11 +57,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImportQuotes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="600">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortQuotes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2472">
+              <caret line="103" column="47" lean-forward="true" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quotes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12720">
+              <caret line="530" column="78" selection-start-line="530" selection-start-column="78" selection-end-line="530" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -64,24 +90,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Quote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="936">
+              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
               <folding>
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SortQuotes.java">
+        <entry file="file://$PROJECT_DIR$/src/ImportQuotesTest.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -92,6 +121,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -101,12 +132,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/OpenFileTest.java" />
+        <option value="$PROJECT_DIR$/quotes.txt" />
+        <option value="$PROJECT_DIR$/src/SortQuotes.java" />
         <option value="$PROJECT_DIR$/src/OpenFile.java" />
         <option value="$PROJECT_DIR$/src/ImportQuotes.java" />
+        <option value="$PROJECT_DIR$/src/ImportQuotesTest.txt" />
+        <option value="$PROJECT_DIR$/src/ImportQuotesTest.java" />
+        <option value="$PROJECT_DIR$/src/QuoteTest.java" />
         <option value="$PROJECT_DIR$/src/Quote.java" />
-        <option value="$PROJECT_DIR$/src/SortQuotes.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1908" />
@@ -140,18 +182,37 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,25 +226,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortQuotes">
-    <configuration name="OpenFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OpenFile" />
+  <component name="RunManager" selected="JUnit.QuoteTest">
+    <configuration name="OpenFileTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="QuotesProject" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenFileTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortQuotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortQuotes" />
+    <configuration name="ImportQuotesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QuotesProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ImportQuotesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportQuotesTest.fillList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuotesProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ImportQuotesTest" />
+      <option name="METHOD_NAME" value="fillList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuotesProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuotesProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuoteTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortQuotes" />
-        <item itemvalue="Application.OpenFile" />
+        <item itemvalue="JUnit.QuoteTest" />
+        <item itemvalue="JUnit.ImportQuotesTest.fillList" />
+        <item itemvalue="JUnit.ImportQuotesTest" />
+        <item itemvalue="JUnit.OpenFileTest" />
+        <item itemvalue="Arquillian JUnit.OpenFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +299,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562630299296</updated>
       <workItem from="1562630302244" duration="26853000" />
-      <workItem from="1563471454460" duration="578000" />
+      <workItem from="1563471454460" duration="13816000" />
     </task>
     <task id="LOCAL-00001" summary="Adding quotes file">
       <created>1563472029466</created>
@@ -207,16 +308,63 @@
       <option name="project" value="LOCAL" />
       <updated>1563472029466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update file path">
+      <created>1563472224566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563472224566</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add quotes file">
+      <created>1563472523539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563472523539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 48m 51s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 50m 08s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 50m 33s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 50m 34s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 54m 02s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 54m 12s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 54m 51s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 55m 00s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImportQuotesTest_fillList - 2019.07.18 at 16h 55m 07s.xml">
+      <configuration name="ImportQuotesTest.fillList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuoteTest - 2019.07.18 at 18h 29m 10s.xml">
+      <configuration name="QuoteTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27431000" />
+    <option name="totallyTimeSpent" value="40669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-1100" width="2575" height="1455" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19616461" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -226,20 +374,20 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3206785" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39983845" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32930514" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32956383" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32875606" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24970035" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32960448" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="R Graphics" order="6" />
@@ -254,7 +402,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding quotes file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding quotes file" />
+    <MESSAGE value="Update file path" />
+    <MESSAGE value="Add quotes file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add quotes file" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -268,54 +418,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImportQuotes.java">
+    <entry file="file://$PROJECT_DIR$/src/OpenFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12720">
+          <caret line="530" column="78" selection-start-line="530" selection-start-column="78" selection-end-line="530" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2296">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuoteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImportQuotesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImportQuotesTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Quote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="936">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortQuotes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OpenFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="72">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotes.txt">
+    <entry file="file://$PROJECT_DIR$/src/ImportQuotes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="79" lean-forward="true" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="600">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortQuotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2472">
+          <caret line="103" column="47" lean-forward="true" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />

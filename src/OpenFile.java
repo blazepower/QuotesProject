@@ -1,26 +1,24 @@
 import java.io.*;
 
+/**
+ * @author - Rishik Hombal
+ * Class to open the file containing quotes
+ */
 public class OpenFile {
 
+    /**
+     * Constructor
+     */
     public OpenFile(){}
 
-    public static void main(String[] args) throws IOException {
-       BufferedReader br = openFile();
-
-        String st;
-        while ((st = br.readLine()) != null)
-            System.out.println(st);
-    }
-
-    public static BufferedReader openFile() throws IOException{
+    /**
+     *
+     * @return BufferedReader reader
+     * @throws IOException exception
+     */
+    static BufferedReader openFile() throws IOException{
         File quotesFile = new File("C:\\Users\\homba\\Documents\\QuotesProject\\quotes.txt");
 
-        if (quotesFile == null){
-            throw new FileNotFoundException("Cannot find quotes file");
-        }
-
-        BufferedReader reader = new BufferedReader(new FileReader(quotesFile));
-
-        return reader;
+        return new BufferedReader(new FileReader(quotesFile));
     }
 }
