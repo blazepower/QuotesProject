@@ -4,7 +4,18 @@ import java.util.ArrayList;
 
 public class SortQuotes {
 
-    public static int getLongestAuthor(ArrayList<Quote> quoteArrayList){
+    static void isDouble(ArrayList<Quote> quotes){
+        for (int i = 0; i < quotes.size(); i++){
+            for (int j = 0; j < quotes.size(); j++){
+                if (i != j && quotes.get(i).equals(quotes.get(j))){
+                    quotes.remove(quotes.get(j));
+                    j--;
+                }
+            }
+        }
+    }
+
+    static int getLongestAuthor(ArrayList<Quote> quoteArrayList){
         int longestAuthor = 0;
         for (Quote quote : quoteArrayList){
             int authorLength = quote.getAuthor()
@@ -15,86 +26,61 @@ public class SortQuotes {
         return longestAuthor;
     }
 
-    public static ArrayList<Quote> charSort(ArrayList<Quote> quoteArrayList, int sortIndex){
-        int[] count = new int[58];
-        ArrayList<Quote> noAuthor = new ArrayList<>();
+    static ArrayList<Quote> charSort(ArrayList<Quote> quoteArrayList, int sortIndex){
+        int[] count = new int[123];
         for (int a : count)
             a = 0;
-        System.out.println(quoteArrayList.size());
         Quote[] sortedByChar = new Quote[quoteArrayList.size()];
 
         for(int i = 0; i < quoteArrayList.size(); i++){
             Quote temp = quoteArrayList.get(i);
             int sortAsInt;
-            try {
+            if(temp.getAuthor().length() > sortIndex ) {
                 char sort = temp.getAuthor().charAt(sortIndex);
-                //System.out.println(sort);
-
-                if (sort == '.' || sort == '-' || sort == '\'' || sort == ' ') {
-                    sortAsInt = 0;
-                }
-                else {
-                    sortAsInt = (int) (sort) - 65;
-                }
-                //System.out.println(sortAsInt);
+                sortAsInt = (int) (sort) ;
                 count[sortAsInt]++;
-                //System.out.println(temp.toString());
             }
-            catch (NullPointerException e){
-                noAuthor.add(quoteArrayList.get(i));
-                quoteArrayList.remove(i);
-            }
-            catch (StringIndexOutOfBoundsException e){
-
+            else {
+                sortAsInt = 32;
+                count[sortAsInt]++;
             }
         }
 
-        for (int i = 1; i <= 57; i++){
+        for (int i = 1; i <= 122; i++){
             count[i] += count[i-1];
         }
 
         for (int i = quoteArrayList.size()-1; i >= 0; i--){
             Quote temp = quoteArrayList.get(i);
-            //System.out.println(temp.toString());
-            try {
+            if(temp.getAuthor().length() > sortIndex ) {
                 char sort = temp.getAuthor().charAt(sortIndex);
-                if (sort != '.' && sort != '-' && sort != ' ' && sort != '\'') {
-                    int sortAsInt = (int) (sort) - 65;
-                    //System.out.println(temp.getQuote() + "  " + sortIndex + "    " + sortAsInt + "  ");
-                    System.out.println(sort + " " + sortAsInt);
-                    sortedByChar[count[sortAsInt] - 1] = temp;
-                    System.out.println(sortedByChar[count[sortAsInt] - 1]);
-                    count[sortAsInt]--;
-                }
+                int sortAsInt = (int) (sort) ;
+                sortedByChar[count[sortAsInt] - 1] = temp;
+                count[sortAsInt]--;
             }
-            catch (NullPointerException | StringIndexOutOfBoundsException e){
-
+            else {
+                sortedByChar[count[32] - 1] = temp;
+                count[32]--;
             }
-            //System.out.println(temp.toString());
         }
         ArrayList<Quote> sortedQuotes = new ArrayList<>();
-        //for (Quote quote : sortedByChar)
-            //System.out.println(quote.toString());
-            //sortedQuotes.add(quote);
-
-        for (Quote quote : noAuthor)
-            sortedQuotes.add(0, quote);
+        for (Quote quote : sortedByChar) {
+            sortedQuotes.add(quote);
+        }
 
         quoteArrayList = sortedQuotes;
-        //System.out.println(sortIndex);
-        for (Quote q: sortedQuotes
-        ) {
-                //System.out.println("    -   " + q.getQuote());
-        }
         return quoteArrayList;
     }
-   public static ArrayList<Quote> sort(ArrayList<Quote> quoteArrayList)throws IOException {
-        int longestAuthor = getLongestAuthor(quoteArrayList);
 
-        for (int i = 0; i < longestAuthor; i++){
-            charSort(quoteArrayList, i);
+   public static ArrayList<Quote> sort(ArrayList<Quote> quoteArrayList) {
+        int longestAuthor = getLongestAuthor(quoteArrayList);
+        ArrayList<Quote> finalSortedQuoteList = quoteArrayList;
+
+        for (int i = longestAuthor-1; i >= 0; i--){
+            finalSortedQuoteList = charSort(finalSortedQuoteList, i);
+            System.out.println(i);
         }
-        return quoteArrayList;
+        return finalSortedQuoteList;
     }
 
     public static void main(String[] args) throws IOException {
@@ -103,19 +89,7 @@ public class SortQuotes {
         ArrayList<Quote> sorted;
         quotes = ImportQuotes.fillList(reader);
 
-        sorted = charSort(quotes, 1);
-        //quotes = charSort(quotes, 0);
-        //ArrayList<Quote> sorted = charSort(quotes, 0);
-        //Quote q = sorted.get(2);
-        //if (q == null) {
-            //System.out.println("q is null");
-
-        //}
-        //System.out.println(q.toString());
-
-        for (int i = 0; i < quotes.size(); i++){
-            //Quote q = quotes.get(i);
-            //System.out.println(q.toString());
-        }
+        sorted = sort(quotes);
+        System.out.println(sorted.toString());
     }
 }
