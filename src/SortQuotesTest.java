@@ -54,4 +54,17 @@ public class SortQuotesTest {
 
         Assert.assertEquals(expectedSort, actualSort);
     }
+
+    @Test
+    public void testIsDouble(){
+        ArrayList<Quote> one = list;
+        ArrayList<Quote> two = list;
+
+        Quote quote6 = new Quote("A. A. Author", "quote 5");
+        two.add(quote6);
+
+        SortQuotes.isDouble(two);
+
+        Assert.assertEquals(one, two);
+    }
 }

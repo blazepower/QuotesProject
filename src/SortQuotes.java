@@ -73,23 +73,13 @@ public class SortQuotes {
     }
 
    public static ArrayList<Quote> sort(ArrayList<Quote> quoteArrayList) {
+        //SortQuotes.isDouble(quoteArrayList);
         int longestAuthor = getLongestAuthor(quoteArrayList);
         ArrayList<Quote> finalSortedQuoteList = quoteArrayList;
 
         for (int i = longestAuthor-1; i >= 0; i--){
             finalSortedQuoteList = charSort(finalSortedQuoteList, i);
-            System.out.println(i);
         }
         return finalSortedQuoteList;
-    }
-
-    public static void main(String[] args) throws IOException {
-        ArrayList<Quote> quotes;
-        BufferedReader reader = OpenFile.openFile();
-        ArrayList<Quote> sorted;
-        quotes = ImportQuotes.fillList(reader);
-
-        sorted = sort(quotes);
-        System.out.println(sorted.toString());
     }
 }
