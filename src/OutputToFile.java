@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class OutputToFile {
 
-    public static void outputToFile() throws IOException{
+    static void outputToFile() throws IOException{
         ArrayList<Quote> quotes, sorted;
         BufferedReader reader = OpenFile.openFile();
         quotes = ImportQuotes.fillList(reader);

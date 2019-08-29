@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642c950d-ea59-4947-acda-5bd61175459e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OutputToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QuotesProject/SortQuotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuotesProject/SortQuotes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortQuotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortQuotesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortQuotesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OutputToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutputToFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,49 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SortQuotesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuoteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11708">
-              <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OutputToFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SortedQuotes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12182" />
           </provider>
         </entry>
       </file>
@@ -159,10 +122,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="y" value="-1105" />
-    <option name="width" value="3864" />
-    <option name="height" value="2184" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -209,6 +172,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -221,6 +185,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="OutputToFile" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,7 +272,7 @@
       <workItem from="1564428844537" duration="10616000" />
       <workItem from="1565756424973" duration="2026000" />
       <workItem from="1566313733010" duration="139000" />
-      <workItem from="1566314258391" duration="16827000" />
+      <workItem from="1566314258391" duration="18587000" />
     </task>
     <task id="LOCAL-00001" summary="Adding quotes file">
       <created>1563472029466</created>
@@ -340,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566327590572</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added code to export sorted quotes to text file.  Text file included in commit.">
+      <created>1566335122345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566335122346</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -376,12 +352,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77091000" />
+    <option name="totallyTimeSpent" value="78851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-1100" width="2575" height="1455" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34527028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +371,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6163142" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -423,7 +399,8 @@
     <MESSAGE value="Add quotes file" />
     <MESSAGE value="Added unit tests, documentation, and cleaned up code" />
     <MESSAGE value="Finished sort algorithms and cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished sort algorithms and cleaned up code" />
+    <MESSAGE value="Added code to export sorted quotes to text file.  Text file included in commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to export sorted quotes to text file.  Text file included in commit." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -434,13 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="1966" column="18" selection-start-line="1966" selection-start-column="18" selection-end-line="1966" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OpenFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -499,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortQuotesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SortQuotes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -527,13 +490,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SortedQuotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12182" />
+        <state relative-caret-position="-12057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortQuotesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OpenFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OutputToFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
