@@ -73,7 +73,6 @@ public class SortQuotes {
     }
 
    public static ArrayList<Quote> sort(ArrayList<Quote> quoteArrayList) {
-        //SortQuotes.isDouble(quoteArrayList);
         int longestAuthor = getLongestAuthor(quoteArrayList);
         ArrayList<Quote> finalSortedQuoteList = quoteArrayList;
 
